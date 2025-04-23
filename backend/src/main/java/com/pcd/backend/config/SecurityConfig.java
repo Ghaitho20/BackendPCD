@@ -38,6 +38,7 @@ public class SecurityConfig {
                                 "/api/membre_proj/**",
                                 "/uploads/**"
 
+
                         ).permitAll()
                         .anyRequest().authenticated()
                 )
