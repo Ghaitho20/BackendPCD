@@ -1,6 +1,6 @@
 package com.pcd.backend.config;
 
-<<<<<<< HEAD
+
 import com.pcd.backend.user.JwtUtil;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
