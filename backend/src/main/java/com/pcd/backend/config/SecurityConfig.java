@@ -37,7 +37,8 @@ public class SecurityConfig {
                                 "api/users/reset-password",
                                 "/api/membre_proj/all",
                                 "/api/membre_proj/**",
-                                "/uploads/**"
+                                "/uploads/**",
+                                "/api/actualites/images/**"
 
 
                         ).permitAll()

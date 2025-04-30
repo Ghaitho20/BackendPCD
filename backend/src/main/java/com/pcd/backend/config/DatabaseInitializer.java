@@ -11,9 +11,9 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @Configuration
 public class DatabaseInitializer {
 
-    @Bean
-    CommandLineRunner init(UserRepository userRepo, PasswordEncoder encoder) {
-        return args -> {
+	@Bean
+	CommandLineRunner initializeDatabase(UserRepository userRepo, PasswordEncoder encoder) {
+	    return args -> {
             String adminEmail = "admin@example.com";
             String adminPassword = "SecureAdminPassword123!";
 
