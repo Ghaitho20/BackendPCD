@@ -38,7 +38,8 @@ public class SecurityConfig {
                                 "/api/membre_proj/all",
                                 "/api/membre_proj/**",
                                 "/uploads/**",
-                                "/api/actualites/images/**"
+                                "/api/actualites/images/**",
+                                "/diseases/update/image/**"
 
 
                         ).permitAll()
