@@ -16,7 +16,7 @@ public class ContactController {
     @Autowired
     private MessageContactService service;
     
-    @GetMapping("/")
+    @GetMapping
     public List<MessageContact> getAllFAQs() {
         return service.getAllFAQs();
     }

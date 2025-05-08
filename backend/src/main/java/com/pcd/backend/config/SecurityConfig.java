@@ -39,7 +39,25 @@ public class SecurityConfig {
                                 "/api/membre_proj/**",
                                 "/uploads/**",
                                 "/api/actualites/images/**",
-                                "/diseases/update/image/**"
+                                "/diseases/update/image/**",
+                                "/api/actualites/**",
+                                "/api/faqs/**",
+                                "api/documents/**",
+                                "/api/contact",
+                                "/api/contact/",
+                                "/TransAct",
+                                "patientDemographics",
+                                "ParagraphActPha",
+                                "StaffPatientStats",
+                                "MaladiePriseEnCharge",
+                                "/diseases",
+                                "/utilizations/Lists",
+                                "/utilizations",
+                                "/germs"
+
+
+
+
 
 
                         ).permitAll()
